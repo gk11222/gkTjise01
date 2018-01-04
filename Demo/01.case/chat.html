@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.container {
+				margin: 0 auto; /* 居中 */
+				margin-top: 10px;
+				padding-top: 10px;
+				width: 475px;
+				
+			}
+			.container div{
+				display: inline-block;
+			}
+			.img{
+				height: 50px;
+				width: 50px;
+				background-color: #9E9E9E;
+				margin: 0px 10px 0px 10px;
+				vertical-align:top;
+			}
+			.c1-left{
+				 width: 0;
+                 height: 0;
+                 border-top: 15px solid transparent;
+                 border-right: 30px solid #80CBC4;
+                 border-bottom: 15px solid transparent;
+                 top: 20px;
+                 position:absolute;
+                 left: -20px;
+			}
+			.c1-right{
+				width: 0;
+                height: 0;
+				border-top: 15px solid transparent;
+                border-left: 30px solid #80CBC4;
+                border-bottom: 15px solid transparent;
+                top: 20px;
+                position:absolute;
+				right: -20px;
+			}
+			.context{
+				height: 100px;
+				width: 300px;
+				background-color: #80CBC4;
+				margin: 0px 10px 10px 10px;
+				position:relative;
+			}
+			.context-left{
+				border-radius: 0px 10px 10px 0px;
+			}
+			.context-right{
+				border-radius: 10px 0px 0px 10px;
+			}
+			.align-left {
+				text-align: left;
+				background-image: linear-gradient(to left , #ECEFF1 , #CFD8DC);
+			}
+			
+			.align-right {
+				text-align: right;
+				background-image: linear-gradient(to right , #ECEFF1 , #CFD8DC);
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="container align-left">
+			<div class="img"></div>
+			<div class="context context-left">
+				<div class="c1-left"></div>
+			</div>
+		</div>
+		
+		
+		<div class="container align-right">
+			<div class="context context-right">
+				<div class="c1-right"></div>
+			</div>
+			<div class="img">
+			</div>
+		</div>
+		<div class="container align-right">
+			<div class="context context-right">
+				<div class="c1-right"></div>
+			</div>
+			<div class="img">
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+	
+	console.log("hello h5")
+	
+	
+</script>
