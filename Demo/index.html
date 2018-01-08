@@ -1,44 +1,21 @@
 <!DOCTYPE html>
 <html>
+	<meta charset="UTF-8">
 <head>
-<meta charset="utf-8"> 
-<title>discount</title> 
 <style>
-     body{
-		text-align:center
-	}
-	#d1
-	{
-		margin: auto;
-		border:1px solid #000;
-		width:200px;
-		height:200px;
-		background-color: lavender;
-		position: relative;
-		overflow: hidden;/*影藏溢出部分*/
-	}
-	#d2{
-		/*border:1px solid #000;*/
-		width:30px
-		height: 100px;
-		background-color: lightsalmon;
-		position: absolute;
-		right: -20px;
-	   /* -moz-transform: rotate(40deg);
-        -webkit-transform: rotate(40deg);
-        
-        -ms-transform: rotate(40deg); */
-        transform: rotate(40deg);
-        box-shadow: 1px 1px 10px black;
-	}
+p:after
+{
+content:"- 台词";
+}
 </style>
 </head>
+
 <body>
-	<div id="d1">
-		<div id="d2">
-		双十一
-		</div>
-	</div>
+
+<p>我是唐老鸭。</p>
+<p>我住在 Duckburg。</p>
+
+<p><b>注释：</b>对于在 IE8 中工作的 :after，必须声明 DOCTYPE。</p>
 
 </body>
 </html>

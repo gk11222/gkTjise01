@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			#d1{
+				border: 1px solid red;
+				height: 100px;
+				width: 100px;;
+			}
+			#d2{
+				background-color: #29B6F6; 
+				opacity: .5;/*缩放*/
+				
+				height: 100px;
+				width: 100px;
+				
+				transition: all 1s ease-in-out;
+			}
+			#d2:hover{
+				transform: scale(.5)
+			}
+		</style>
+	</head>
+	<body>
+		<div id="d1">
+			<div id="d2"></div>
+		</div>
+	</body>
+</html>

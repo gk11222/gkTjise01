@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#container{
+				border: 1px salmon  solid;
+				display: flex; 
+				/*行  换行  row是行排列  column是列排列   wrap代表换行  nowarp不能换行*/
+				flex-flow: row wrap;
+				/*列换行
+				flex-flow: column wrap;*/
+				/*flex-flow: row nowrap;*/
+				
+				
+				/*代表倒排列来
+				flex-flow: row-reverse nowrap;*/
+				
+			}
+			.item{
+				height: 100px; width: 100px;
+				background-color: #4FC3F7;
+				margin: 10px;
+				
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div class="item">
+				A
+			</div>
+			<div class="item">
+				B
+			</div>
+			<div class="item">
+				C
+			</div>
+			<div class="item">
+				D
+			</div>
+			<div class="item">
+				E
+			</div>
+			
+		</div>
+	</body>
+</html>
