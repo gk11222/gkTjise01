@@ -1,0 +1,136 @@
+
+#title {
+	width: 100%;
+	height: 40px;
+	background-color: #212121;
+	font-size: 100%;
+	color: white;
+}
+
+
+#title_left {
+	height: 34px;
+	width: 100px;
+}
+
+#title_center {
+		height: 34px;
+	flex: 1;
+}
+
+#title_right {
+		height: 34px;
+	width: 100px;
+}
+
+#add {
+	height: 30px;
+	width: 30px;
+	background-image: url(../img/title/add.svg);
+	background-position: center;
+	background-size: 70%;
+	background-repeat: no-repeat;
+	
+	margin-right: 4px;
+}
+
+#title_submenu {
+	height: 169px;
+	width: 150px;
+	position: absolute;
+	background-color: #424242;
+	border: ;
+	top: 38px;
+	right: 10px;
+	border-radius:5px;
+}
+
+#groupchat{
+	height: 40px;
+	width: 98%;
+	border: 1px solid black;
+	border-radius:5px;
+}
+#img_chat{
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-image: url(../img/title/chat.svg);
+	background-size: 60%;
+	background-color: #424242;
+	background-repeat: no-repeat;
+	
+	margin-left: 10px;
+}
+#txt_chat{
+	flex: 1;
+	font-family: "微软雅黑";
+	
+}
+
+
+#addfriends{
+	height: 40px;
+	width: 98%;
+	border: 1px solid black;
+	
+}
+#img_add{
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-image: url(../img/title/addfriend.svg);
+	background-size: 80%;
+	background-color: #424242;
+	background-repeat: no-repeat;
+	
+	margin-left: 10px;
+}
+#txt_add{
+	flex: 1;
+	font-family: "微软雅黑";
+}
+
+
+#scan{
+	height: 40px;
+	width: 98%;
+	border: 1px solid black;
+}
+#img_scan{
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-image: url(../img/title/scan.svg);
+	background-size: 60%;
+	background-color: #424242;
+	background-repeat: no-repeat;
+	
+	margin-left: 10px;
+}
+#txt_scan{
+	flex: 1;
+	font-family: "微软雅黑";
+}
+
+
+#payment{
+	height: 40px;
+	width: 98%;
+	border: 1px solid black;
+}
+#img_payment{
+	height: 30px;
+	width: 30px;
+	background-position: center;
+	background-image: url(../img/title/payment.svg);
+	background-size: 60%;
+	background-color: #424242;
+	background-repeat: no-repeat;
+	border-radius:5px;
+	margin-left: 10px;
+}
+#txt_payment{
+	flex: 1;
+	font-family: "微软雅黑";
+}
