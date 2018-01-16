@@ -1,0 +1,41 @@
+/*大层*/
+
+    #content{
+    width:90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+    }
+    /*瀑布流层*/
+    .waterfall{
+        -moz-column-count:3; /* Firefox */
+        -webkit-column-count:3; /* Safari 和 Chrome */
+        column-count:3;
+        -moz-column-gap: 1em;
+      -webkit-column-gap: 1em;
+      column-gap: 1em;
+    }
+    /*一个内容层*/
+    .item{
+      padding: 1em;
+      margin: 0 0 1em 0;
+      -moz-page-break-inside: avoid;
+      -webkit-column-break-inside: avoid;
+      break-inside: avoid;
+     background-color: white;
+    }
+    .item img{
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .img-black:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	transition: all 1s;
+    }
+    
+   
+
+
+

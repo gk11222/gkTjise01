@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+	}
+#container{
+	#container {
+		position: fixed;
+		width: 100%;
+		/*min-height: 420px;*/
+		background-color: #ECEFF1;
+		
+}
+}
+/*#container div{
+	display: flex;
+	flex-flow: column nowrap;
+	
+}*/
+
+#color{
+	width: 100%;
+	 margin: 0 auto;
+	 background-color: #E0E0E0;
+}
